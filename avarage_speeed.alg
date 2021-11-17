@@ -55,6 +55,9 @@ inicio
   Escreva  ("Tente novamente")
   fimalgoritmo
  Fimse
+  Se (v>0) e (vd>0) e (vt>0) entao
+  Escreva ("Não há dados a serem descobertos.")
+ Fimse
  
  Se (v=0) e (vd>0) e (vt>0) entao
  Escreval ("Calculando velociade... ")
