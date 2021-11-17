@@ -17,8 +17,8 @@ inicio
  Escreva ("Insira valor para tempo final: ")
  Leia (t2)
  vt <- (t1+t2)/2
- Se (vt<=0) entao
-  Escreva ("Erro, valor para varição de tempo igual ou menor que zero, ", vt)
+ Se (vt<0) entao
+  Escreva ("Erro, valor para varição de tempo menor que zero, ", vt)
   fimalgoritmo
  FimSe
  Escreva ("Insira valor para posição inicial: ")
@@ -26,8 +26,8 @@ inicio
  Escreva ("Insira valor para possição final: ")
  Leia (d2)
  vd <- (d1+d2)/2
- Se (vd<=0) entao
-  Escreva ("Valor para variação de posição igual ou menor que zero, ", vd)
+ Se (vd<0) entao
+  Escreva ("Valor para variação de posição menor que zero, ", vd)
   fimalgoritmo
  Fimse
  
