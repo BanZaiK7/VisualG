@@ -55,5 +55,3 @@ inicio
   fimalgoritmo
  Fimse
 fimalgoritmo
- 
-fimalgoritmo
