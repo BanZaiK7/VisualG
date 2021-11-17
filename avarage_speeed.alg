@@ -6,7 +6,7 @@ algoritmo "An apple"
 var
   v, t1, t2, d1, d2, vt, vd, v1, vt1, vd1 : Real
 inicio
- Escreva ("Caso valor seja desconhecido, considere o valor igual a 0.")
+ Escreval ("Caso valor seja desconhecido, considere o valor igual a 0.")
  Escreva ("Insira valor da velociade: ")
  Leia (v)
  Se (v<0) entao
