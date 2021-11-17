@@ -1,8 +1,8 @@
 algoritmo "An apple"
-// Função :
+// FunÃ§Ã£o :
 // Autor :
 // Data : 17/11/2021
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
   v, t1, t2, d1, d2, vt, vd, v1, vt1, vd1 : Real
 inicio
@@ -18,16 +18,16 @@ inicio
  Leia (t2)
  vt <- (t1+t2)/2
  Se (vt<=0) entao
-  Escreva ("Erro, valor para varição de tempo igual ou menor que zero, ", vt)
+  Escreva ("Erro, valor para variÃ§Ã£o de tempo igual ou menor que zero, ", vt)
   fimalgoritmo
  FimSe
- Escreva ("Insira valor para posição inicial: ")
+ Escreva ("Insira valor para posiÃ§Ã£o inicial: ")
  Leia (d1)
- Escreva ("Insira valor para possição final: ")
+ Escreva ("Insira valor para possiÃ§Ã£o final: ")
  Leia (d2)
  vd <- (d1+d2)/2
  Se (vd<=0) entao
-  Escreva ("Valor para variação de posição igual ou menor que zero, ", vd)
+  Escreva ("Valor para variaÃ§Ã£o de posiÃ§Ã£o igual ou menor que zero, ", vd)
   fimalgoritmo
  Fimse
  
