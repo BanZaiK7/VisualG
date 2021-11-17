@@ -1,11 +1,12 @@
 algoritmo "An apple"
-// Função :
-// Autor :
+// Função : Calcular velociade média 
+// Autor : Lucas Belo
 // Data : 17/11/2021
 // Seção de Declarações 
 var
   v, t1, t2, d1, d2, vt, vd, v1, vt1, vd1 : Real
 inicio
+ Escreva ("Caso valor seja desconhecido, considere o valor igual a 0.")
  Escreva ("Insira valor da velociade: ")
  Leia (v)
  Se (v<0) entao
@@ -54,4 +55,20 @@ inicio
   Escreva  ("Tente novamente")
   fimalgoritmo
  Fimse
+ 
+ Se (v=0) e (vd>0) e (vt>0) entao
+ Escreval ("Calculando velociade... ")
+ v1<- vd/vt
+ Escreva  ("Velocidade igual a: ", v1)
+Fimse
+Se (v>0) e (vd=0) e (vt>0) entao
+ Escreval ("Calculando variação de posição... ")
+ vd1<- v*vt
+ Escreva  ("Variação da posição igual a: ", vd1)
+Fimse
+Se (v>0) e (vd>0) e (vt=0) entao
+ Escreval ("Calculando variação de tempo... ")
+ vt1<- vd/v
+ Escreva  ("Variação do tempo igual a: ", vt1)
+Fimse
 fimalgoritmo
